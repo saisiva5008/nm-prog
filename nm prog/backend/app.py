@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 import random
-import streamlit as st
 
 app = Flask(__name__)
 CORS(app)
